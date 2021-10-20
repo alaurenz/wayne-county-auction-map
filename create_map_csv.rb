@@ -25,6 +25,7 @@ def get_auction_properties(start_batch_id, end_batch_id, output_csv_filename)
           full_address = td_nodeset[i - 1].content + ", Detroit, MI " + td_nodeset[i + 1].content
           
           # Lines below not yet working properly
+          parcel_id = "-"
           # parcel_id = td_nodeset[1].content.strip
           # street_view_url = "http://maps.google.com/maps?q=&layer=c&cbll=31.33519,-89.28720"
 
